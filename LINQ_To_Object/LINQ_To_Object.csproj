@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A5CB9A03-6DE6-4A93-B64F-EBBA40D1C051}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LINQ_To_Object</RootNamespace>
+    <AssemblyName>LINQ_To_Object</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\Comparer_Vowel_ConstantRatio.cs" />
+    <Compile Include="Examples\Deffered Querys\Concatenation\Concat_Operator.cs" />
+    <Compile Include="Examples\Deffered Querys\Join\Join_Operator.cs" />
+    <Compile Include="Examples\Deffered Querys\Ordering\OderBy.cs" />
+    <Compile Include="Examples\Deffered Querys\Ordering\Reverse_Operator.cs" />
+    <Compile Include="Examples\Deffered Querys\Ordering\ThenBy_Operator.cs" />
+    <Compile Include="Examples\Deffered Querys\Paritioning\SkipWhile_Operator.cs" />
+    <Compile Include="Examples\Deffered Querys\Paritioning\Skip_Operator.cs" />
+    <Compile Include="Examples\Deffered Querys\Paritioning\TakeWhile_Operator.cs" />
+    <Compile Include="Examples\Deffered Querys\Paritioning\Take_Operator.cs" />
+    <Compile Include="Linq-To-Object-SQL-Database\Common\Presidents_Array.cs" />
+    <Compile Include="Template.cs" />
+    <Compile Include="Examples\Basic_Query_First.cs" />
+    <Compile Include="Examples\Deffered Querys\Projection\SelectMany_Operator.cs" />
+    <Compile Include="Examples\Deffered Querys\Projection\Select_Operator.cs" />
+    <Compile Include="Examples\Deffered Querys\Restriction\Where_Operator.cs" />
+    <Compile Include="Examples\func_Delegates.cs" />
+    <Compile Include="Examples\IenumSequenceOfTs_Yielding_DefferingQs.cs" />
+    <Compile Include="Linq-To-Object-SQL-Database\Common\EmployeeOptionEntry.cs" />
+    <Compile Include="Linq-To-Object-SQL-Database\Common\IEnumeration_Interface.cs" />
+    <Compile Include="Linq-To-Object-SQL-Database\Common\Initial_Get_Employee_Array_List.cs" />
+    <Compile Include="Linq-To-Object-SQL-Database\Common\Shared_Employee_Class.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

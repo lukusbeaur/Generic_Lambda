@@ -1,0 +1,14 @@
+C:\Users\nokia_lte\source\repos\GenericLINQ_Lamnda\GenericLINQ_Lamnda\bin\Debug\GenericLINQ_Lamnda.exe.config
+C:\Users\nokia_lte\source\repos\GenericLINQ_Lamnda\GenericLINQ_Lamnda\bin\Debug\GenericLINQ_Lamnda.exe
+C:\Users\nokia_lte\source\repos\GenericLINQ_Lamnda\GenericLINQ_Lamnda\bin\Debug\GenericLINQ_Lamnda.pdb
+C:\Users\nokia_lte\source\repos\GenericLINQ_Lamnda\GenericLINQ_Lamnda\obj\Debug\GenericLINQ_Lamnda.csprojAssemblyReference.cache
+C:\Users\nokia_lte\source\repos\GenericLINQ_Lamnda\GenericLINQ_Lamnda\obj\Debug\GenericLINQ_Lamnda.csproj.CoreCompileInputs.cache
+C:\Users\nokia_lte\source\repos\GenericLINQ_Lamnda\GenericLINQ_Lamnda\obj\Debug\GenericLINQ_Lamnda.exe
+C:\Users\nokia_lte\source\repos\GenericLINQ_Lamnda\GenericLINQ_Lamnda\obj\Debug\GenericLINQ_Lamnda.pdb
+F:\Academics\Programming\c-Sharp\current program\GenericLINQ_Lamnda\GenericLINQ_Lamnda\bin\Debug\GenericLINQ_Lamnda.exe.config
+F:\Academics\Programming\c-Sharp\current program\GenericLINQ_Lamnda\GenericLINQ_Lamnda\bin\Debug\GenericLINQ_Lamnda.exe
+F:\Academics\Programming\c-Sharp\current program\GenericLINQ_Lamnda\GenericLINQ_Lamnda\bin\Debug\GenericLINQ_Lamnda.pdb
+F:\Academics\Programming\c-Sharp\current program\GenericLINQ_Lamnda\GenericLINQ_Lamnda\obj\Debug\GenericLINQ_Lamnda.csprojAssemblyReference.cache
+F:\Academics\Programming\c-Sharp\current program\GenericLINQ_Lamnda\GenericLINQ_Lamnda\obj\Debug\GenericLINQ_Lamnda.csproj.CoreCompileInputs.cache
+F:\Academics\Programming\c-Sharp\current program\GenericLINQ_Lamnda\GenericLINQ_Lamnda\obj\Debug\GenericLINQ_Lamnda.exe
+F:\Academics\Programming\c-Sharp\current program\GenericLINQ_Lamnda\GenericLINQ_Lamnda\obj\Debug\GenericLINQ_Lamnda.pdb
